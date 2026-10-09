@@ -62,6 +62,7 @@ import org.gridsuite.modification.modifications.tabular.TabularModification;
     @JsonSubTypes.Type(value = DeleteVoltageLevelOnLine.class, name = "DELETE_VOLTAGE_LEVEL_ON_LINE"),
     @JsonSubTypes.Type(value = EquipmentAttributeModification.class, name = "EQUIPMENT_ATTRIBUTE_MODIFICATION"),
     @JsonSubTypes.Type(value = EquipmentDeletion.class, name = "EQUIPMENT_DELETION"),
+    @JsonSubTypes.Type(value = EquipmentRename.class, name = "EQUIPMENT_RENAME"),
     @JsonSubTypes.Type(value = GenerationDispatch.class, name = "GENERATION_DISPATCH"),
     @JsonSubTypes.Type(value = GeneratorCreation.class, name = "GENERATOR_CREATION"),
     @JsonSubTypes.Type(value = GeneratorModification.class, name = "GENERATOR_MODIFICATION"),

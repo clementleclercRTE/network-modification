@@ -30,6 +30,7 @@ public enum NetworkModificationExceptionType {
     MODIFY_SHUNT_COMPENSATOR_ERROR("An error occurred while modifying the shunt compensator"),
     CREATE_STATIC_VAR_COMPENSATOR_ERROR("An error occurred while creating the static var compensator"),
     EQUIPMENT_NOT_FOUND("The equipment could not be found"),
+    EQUIPMENT_ALREADY_EXISTS("An equipment with this identifier already exists"),
     ATTRIBUTE_NOT_EDITABLE("The equipment attribute is not editable"),
     CREATE_LINE_ERROR("An error occurred while creating the line"),
     MODIFY_LINE_ERROR("An error occurred while modifying the line"),
